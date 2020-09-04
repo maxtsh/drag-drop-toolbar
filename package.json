@@ -1,0 +1,22 @@
+{
+  "name": "drag-drop",
+  "version": "1.0.0",
+  "description": "A fast, reliable and elegant drag and drop toolbar",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
